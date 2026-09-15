@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><title>向北，看草原入秋 · 七日路书</title>
+<style>
+:root{--bg:#f5f1e7;--card:#fffdf7;--ink:#233c32;--dim:#626c61;--line:#d9ddcf;--green:#284d3d;--gold:#d8ae56;--rust:#a25031;--soft:#ece4d0}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:system-ui,-apple-system,"Microsoft YaHei",sans-serif;line-height:1.75}a{color:#365f42;text-underline-offset:3px}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid var(--rust);outline-offset:4px}.wrap{max-width:960px;margin:auto;padding:0 24px}header{overflow:hidden;position:relative;background:var(--green);color:#faf5e8;padding:52px 0 32px}header .wrap{position:relative;z-index:1}.eyebrow{font-size:12px;letter-spacing:.2em;text-transform:uppercase;opacity:.8}.hero-title{font-family:"Songti SC",SimSun,serif;font-size:clamp(36px,6.5vw,68px);line-height:1.25;font-weight:500;margin:18px 0}.hero-title em{color:#f0cb7d;font-style:normal}.lead{max-width:630px;opacity:.92}.hero-art{width:100%;height:135px;display:block;margin:6px 0 -32px}.meta{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0}.pill{border:1px solid #ffffff42;padding:4px 11px;border-radius:20px;font-size:12px}.numbers{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#ffffff20;border:1px solid #ffffff20;border-radius:12px;overflow:hidden;margin-top:26px}.numbers div{background:var(--green);padding:16px}.numbers strong{display:block;font-size:25px;line-height:1.4}.numbers small{opacity:.8}.topnav{position:sticky;top:0;z-index:20;background:#f5f1e7f2;backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}.navinner{display:flex;gap:5px;overflow:auto;padding-top:11px;padding-bottom:11px}.topnav button{white-space:nowrap;background:none;border:0;padding:6px 11px;border-radius:25px;color:var(--dim);font-size:13px}.topnav button.active{background:var(--green);color:white}.section{margin:32px 0}.section-heading{display:flex;justify-content:space-between;align-items:baseline;gap:15px;margin:0 0 14px}.section-heading h2{margin:0;font-size:23px;font-family:"Songti SC",SimSun,serif}.caption{font-size:12px;color:var(--dim)}.paper{background:var(--card);border:1px solid var(--line);padding:23px;border-radius:16px}.note{background:#eee5d1;border-left:4px solid var(--gold);padding:14px 18px;font-size:13px;border-radius:0 10px 10px 0}.grid{display:grid;gap:14px}.two{grid-template-columns:1fr}.label{font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--rust)}h3{font-size:17px;line-height:1.6;margin:6px 0 10px}p{margin:8px 0}.small{font-size:13px}.dim{color:var(--dim)}.todo-item{padding:9px 0;list-style:none;display:flex;gap:10px;border-bottom:1px dashed var(--line);align-items:flex-start}.todo-item input{accent-color:var(--green);width:17px;height:17px;flex-shrink:0;margin-top:5px}.todo-deadline{font-size:12px;font-weight:700;min-width:85px;padding-top:2px}.todo-text{font-size:13px}.pretrip-todo{padding:0;margin:0}.route-ribbon{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0;font-size:12px}.route-ribbon span{padding:5px 10px;background:#ecebdf;border-radius:7px}.map-shell{background:#e7ecdf;border-radius:12px;overflow:hidden;position:relative}.route-schematic{padding:26px 20px;text-align:center}.route-schematic svg{display:block;width:100%;max-height:250px;margin:auto}.map-caption{max-width:650px;font-size:12px;color:#58665c;margin:12px auto}#map{height:390px;display:none;z-index:1}.map-toolbar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:12px 0}.btn{background:var(--green);color:white;border:0;padding:9px 15px;border-radius:8px;font-size:13px}.btn.ghost{background:transparent;border:1px solid var(--line);color:var(--green)}.route-pin{background:var(--green);border:2px solid white;border-radius:50%;color:white;text-align:center;box-shadow:0 1px 4px #0004}.route-pin__num{line-height:24px;font-size:12px}.day{scroll-margin-top:85px;margin:32px 0 44px}.day[hidden]{display:none}.day-heading{display:grid;grid-template-columns:58px 1fr;gap:15px;align-items:center;margin-bottom:14px}.day-num{background:var(--gold);border-radius:12px;text-align:center;padding:7px 4px;line-height:1.25;color:#353d2a}.day-num strong{display:block;font-size:28px}.day-num small{font-size:10px;letter-spacing:.1em}.day-heading h2{font-size:25px;line-height:1.5;margin:3px 0}.route-summary{padding:14px 18px;background:var(--green);color:#f6f1e5;border-radius:12px;margin-bottom:16px;font-size:13px}.route-summary .dim{color:#e1e2cc}.timeline{border-left:2px solid #c9ceb8;margin:20px 0 20px 10px;padding-left:22px}.stop{position:relative;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px;margin:0 0 15px}.stop:before{content:"";position:absolute;width:10px;height:10px;left:-29px;top:25px;background:var(--green);border:3px solid var(--bg);border-radius:50%;box-sizing:content-box}.stop h3{margin:4px 0 8px;font-size:18px}.stop .time{font-size:12px;font-weight:700;letter-spacing:.04em;color:var(--rust)}.tag{display:inline-block;border:1px solid #cbd5c7;background:#eef2e9;color:#365c41;padding:1px 7px;border-radius:5px;font-size:10px;margin:0 0 0 6px;vertical-align:middle}.tag.candidate{background:#fff0d1;border-color:#dfc78f;color:#7a5226}.data-row{font-size:12px;color:var(--dim);border-top:1px dashed var(--line);margin-top:12px;padding-top:10px}.data-row div{margin:4px 0}.sources-inline{font-size:11px;margin-top:10px;display:flex;flex-wrap:wrap;gap:6px}.sources-inline a{color:#717963}.meal{padding:18px;background:var(--card);border:1px solid var(--line);border-radius:12px;font-size:13px}.meal h3{font-size:16px;line-height:1.6}.meal .price{color:var(--rust);font-weight:700;margin:10px 0}.dishes{padding:0;list-style:none}.dishes li{margin:7px 0;padding-left:11px;border-left:2px solid var(--gold)}.meal-note{color:var(--dim);font-size:12px}.alternate{padding:16px;background:#e9ede2;border-radius:12px;font-size:13px}.alternate h4{margin:0 0 5px}.tips-list{padding-left:18px;font-size:13px}.tips-list li{margin:9px 0}.budget-table{width:100%;border-collapse:collapse;font-size:13px}.budget-table td,.budget-table th{border-bottom:1px solid var(--line);text-align:left;vertical-align:top;padding:13px 4px}.budget-table th:last-child,.budget-table td:last-child{text-align:right;min-width:110px}.budget-total{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:15px;background:var(--green);color:white;padding:22px;border-radius:12px;margin-top:18px}.budget-total strong{font-size:28px;color:#f5d38c}.source-list{font-size:12px;overflow-wrap:anywhere;padding-left:22px}.source-list li{padding:6px 0}.source-list small{color:var(--dim)}details>summary{cursor:pointer;font-weight:600}.reference{scroll-margin-top:90px}.disclaimer{font-size:12px;color:#5d665a;line-height:1.9}.reminder-badge{font-size:11px;color:var(--rust)}footer{padding:30px 0 45px;border-top:1px solid var(--line);font-size:12px;color:var(--dim)}.photo{aspect-ratio:16/9;background:var(--soft);overflow:hidden}.photo img{width:100%;height:100%;object-fit:cover;display:block}.download{display:flex;gap:8px;flex-wrap:wrap}.generated-mark{font-family:Georgia,serif;font-size:22px;font-style:italic;color:var(--rust)}.pretrip-card p{font-size:13px}.desktop-only{display:none}
+@media(min-width:768px){.two{grid-template-columns:repeat(2,minmax(0,1fr))}.three{grid-template-columns:repeat(3,minmax(0,1fr))}.wrap{padding:0 30px}.hero-art{height:150px}.stop{padding:20px 24px}.day-heading h2{font-size:28px}.desktop-only{display:initial}}
+@media(max-width:420px){.wrap{padding:0 16px}header{padding-top:35px}.numbers div{padding:12px 9px}.numbers strong{font-size:22px}.numbers small{font-size:10px}.paper{padding:17px}.todo-item{flex-wrap:wrap}.todo-text{margin-left:27px}.day-heading{grid-template-columns:49px 1fr;gap:10px}.day-heading h2{font-size:21px}.timeline{padding-left:17px}.stop{padding:14px}.stop:before{left:-24px}#map{height:310px}.budget-table{font-size:12px}}
+@media print{body{background:white;color:#111}.wrap{max-width:none;padding:0}header{background:#284d3d!important;print-color-adjust:exact;padding:20px}.hero-art,.topnav,.download,.map-toolbar,#map{display:none!important}.day[hidden]{display:block!important}.day{page-break-before:always}.paper,.stop,.meal{break-inside:avoid;border-color:#aaa;box-shadow:none}details>*{display:block!important}.section{margin:20px 0}.route-summary,.budget-total{print-color-adjust:exact}.numbers{margin-top:12px}a{color:inherit;text-decoration:none}.sources-inline{display:none}footer{margin-top:20px}}
+</style></head><body>
+<header><div class="wrap"><div class="eyebrow">AUTUMN ROAD JOURNAL / 2026</div><h1 class="hero-title">向北，<br><em>看草原入秋。</em></h1><p class="lead">沿着你定好的环线，把时间留给秋草、湖面、石林，<br class="desktop-only">以及每天一顿热腾腾的当地饭。</p><div class="meta"><span class="pill">9.30 — 10.06 · 七天</span><span class="pill">5人 · 3男2女 · 1车</span><span class="pill">新增点偏离原线单程≤30km</span></div><div class="numbers"><div><strong>2,278.2</strong><small>公里 · 用户分段重新合计</small></div><div><strong>7天 / 6晚</strong><small>住宿按你的既定安排</small></div><div><strong>¥1,320–1,800</strong><small>人均玩＋吃＋补给预算</small></div></div></div><svg class="hero-art" viewBox="0 0 1200 180" preserveAspectRatio="none" aria-hidden="true"><path d="M0 120 Q140 25 310 96 T610 70 T880 100 T1200 65 V180 H0Z" fill="#557456"/><path d="M0 148 Q200 110 360 140 T760 108 T1200 147 V180 H0Z" fill="#8e9870"/><path d="M0 175 Q300 95 510 153 T1000 157 T1200 162 V180 H0Z" fill="#c5b984"/><path d="M350 180 Q590 133 570 120 T750 84" fill="none" stroke="#f5e4b9" stroke-width="5" stroke-dasharray="15 9"/><circle cx="945" cy="40" r="22" fill="#edce8d"/></svg></header>
+<nav class="topnav" aria-label="切换日期"><div class="wrap navinner">@@NAV@@</div></nav>
+<main class="wrap">
+<section class="section" id="overview"><div class="note">@@SCOPE@@<br><strong>里程校正：</strong>16段合计为2278.2公里，比原总数2271.2公里多7公里；尚未加新增绕行、市内用餐和停车进出。</div></section>
+<section class="section" id="before"><div class="section-heading"><h2>出发前，把这四件事落实</h2><span class="caption">可勾选 · 保存在当前浏览器</span></div><div class="paper" id="checklist">@@CHECKLIST@@</div></section>
+<section class="section"><div class="section-heading"><h2>这趟怎么安排</h2><span class="caption">已按你的日期与距离口径</span></div><div class="grid two">@@DECISIONS@@</div></section>
+<section class="section" id="route"><div class="section-heading"><h2>一张图，看懂大方向</h2><span class="caption">示意线 ≠ 导航道路</span></div><div class="map-shell"><div class="route-schematic" id="mapFallback"><svg viewBox="0 0 760 240" role="img" aria-label="天津经张北正蓝旗达里湖石林西乌旗热水塘赤峰返回天津的路线示意"><path d="M120 185 L95 125 L210 60 L340 50 L470 28 L580 45 L540 120 L425 175 L120 185" fill="none" stroke="#658365" stroke-width="3" stroke-dasharray="8 6"/><g fill="#284d3d"><circle cx="120" cy="185" r="7"/><circle cx="95" cy="125" r="7"/><circle cx="210" cy="60" r="7"/><circle cx="340" cy="50" r="7"/><circle cx="470" cy="28" r="7"/><circle cx="580" cy="45" r="7"/><circle cx="540" cy="120" r="7"/><circle cx="425" cy="175" r="7"/></g><g font-size="15" fill="#284d3d" font-family="sans-serif"><text x="95" y="216">天津</text><text x="23" y="129">张北</text><text x="174" y="42">正蓝旗</text><text x="310" y="82">达里湖</text><text x="442" y="60">石林</text><text x="600" y="49">西乌旗</text><text x="560" y="124">热水塘</text><text x="435" y="201">赤峰</text></g></svg><p class="map-caption">此图为路线顺序示意，不按比例绘制。联网地图只放有资料来源的部分点位；牛奶湖、仙那度、99号公路起点与景区入口应在导航中单独确认。</p></div><div id="map" aria-label="联网交互地图"></div></div><div class="map-toolbar"><button class="btn" id="load-map">加载联网地图</button><button class="btn ghost" id="reset-map" hidden>恢复全程视野</button><span class="caption" id="map-status" role="status">文字和示意图可离线阅读；底图需联网。</span></div></section>
+<section class="section" id="pretrip"><div class="section-heading"><h2>九月底出发，该怎么准备</h2><span class="caption">七天逐日预报待更新</span></div><div class="grid two">@@PRETRIP@@</div></section>
+<div id="days">@@DAYS@@</div>
+<section class="section" id="budget"><div class="section-heading"><h2>五个人，玩和吃花多少</h2><span class="caption">可自由增减的预算</span></div><div class="paper">@@BUDGET@@</div></section>
+<section class="section" id="tips"><div class="section-heading"><h2>全程好用的几条提醒</h2></div><div class="paper"><ul class="tips-list">@@TIPS@@</ul></div></section>
+<section class="section" id="reliability"><div class="paper"><h3>信息口径与来源</h3><p class="disclaimer">@@DISCLAIMER@@</p><p class="small dim">本次未使用飞猪实时门票或高德路线规划服务，也未取得可用的小红书登录笔记；餐馆人均为公开平台参考，菜单组合为五人点菜建议。未采用未经核实的评分、景点照片或精确道路距离。</p><details><summary>展开逐项资料来源（含坐标出处）</summary><ol class="source-list">@@SOURCES@@</ol></details></div></section>
+</main><footer><div class="wrap"><div class="download"><button class="btn" id="print">打印 / 存为 PDF</button><button class="btn ghost" id="download-data">下载行程数据</button></div><p>资料整理：2026.09.15 · 行程版本 1.0 · 文字离线可读，地图需联网。<br>以后可以把这份 HTML 发回来，直接修改某一天，完整行程数据已经保存在文件内。</p><span class="generated-mark">Have a good road trip.</span></div></footer>
+<script id="trip-data" type="application/json">@@TRIP@@</script>
+<script>
+// Leaflet 地图引擎。纯函数（buildNavLink/buildMapAppLinks/routeCoordinates/gcj02ToWgs84）可单元测试；
+// initTravelMap 需浏览器 + Leaflet (L)。浏览器与 Node 双用。
+
+// HTML 转义，防止 XSS
+function escapeHTML(s) {
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+// 生成跳转手机地图导航的链接。
+// iOS 不识别 geo: scheme，用 Apple Maps 的 https 通用链接；其余平台用 geo:。
+// ua 可选（浏览器里传 navigator.userAgent），不传则回退 geo:。
+function buildNavLink(lat, lng, label, ua) {
+  if (ua && /iPhone|iPad|iPod/.test(ua)) {
+    return 'https://maps.apple.com/?ll=' + lat + ',' + lng + '&q=' + encodeURIComponent(label);
+  }
+  return 'geo:' + lat + ',' + lng + '?q=' + lat + ',' + lng + '(' + encodeURIComponent(label) + ')';
+}
+
+// 常用地图 App 的点位链接（免 key 的官方 URI 规范：高德 URI API、Google Maps URLs）。
+// 这不是 page-contract 的 actionLink——不承载实时数据主张，只是"打开地图看这个点"。
+// 境内点只给高德（Google 地图境内不可用、底图坐标系还会偏移）；境外点给 Google + 高德。
+// 输入坐标一律 WGS-84：高德 URI 用 coordinate=wgs84 声明由其换算，Google 本身即 WGS-84。
+// isInChinaBBox 声明在下方 GCJ 区块（函数声明有提升，此处可用）。
+function buildMapAppLinks(lat, lng, label) {
+  var amap = {
+    label: '高德地图',
+    url: 'https://uri.amap.com/marker?position=' + lng + ',' + lat
+      + '&name=' + encodeURIComponent(label)
+      + '&coordinate=wgs84&callnative=1&src=travel-plan-viz',
+  };
+  var google = {
+    label: 'Google 地图',
+    url: 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(lat + ',' + lng),
+  };
+  return isInChinaBBox(lat, lng) ? [amap] : [google, amap];
+}
+
+// —— GCJ-02 → WGS-84 坐标转换 ——
+// 高德/腾讯地图返回的坐标是 GCJ-02（国测局加密），直接画在 OSM（WGS-84）瓦片上
+// 会偏移一百到几百米。凡坐标来自高德/腾讯类 skill，必须先经此函数转换。
+// 中国境外坐标原样返回（GCJ-02 仅在境内加偏）。
+var GCJ_A = 6378245.0;
+var GCJ_EE = 0.00669342162296594323;
+
+function isInChinaBBox(lat, lng) {
+  return lng >= 72.004 && lng <= 137.8347 && lat >= 0.8293 && lat <= 55.8271;
+}
+
+function gcjTransformLat(x, y) {
+  var ret = -100.0 + 2.0 * x + 3.0 * y + 0.2 * y * y + 0.1 * Math.sqrt(Math.abs(x));
+  ret += (20.0 * Math.sin(6.0 * x * Math.PI) + 20.0 * Math.sin(2.0 * x * Math.PI)) * 2.0 / 3.0;
+  ret += (20.0 * Math.sin(y * Math.PI) + 40.0 * Math.sin(y / 3.0 * Math.PI)) * 2.0 / 3.0;
+  ret += (160.0 * Math.sin(y / 12.0 * Math.PI) + 320.0 * Math.sin(y * Math.PI / 30.0)) * 2.0 / 3.0;
+  return ret;
+}
+
+function gcjTransformLng(x, y) {
+  var ret = 300.0 + x + 2.0 * y + 0.1 * x * x + 0.1 * x * y + 0.1 * Math.sqrt(Math.abs(x));
+  ret += (20.0 * Math.sin(6.0 * x * Math.PI) + 20.0 * Math.sin(2.0 * x * Math.PI)) * 2.0 / 3.0;
+  ret += (20.0 * Math.sin(x * Math.PI) + 40.0 * Math.sin(x / 3.0 * Math.PI)) * 2.0 / 3.0;
+  ret += (150.0 * Math.sin(x / 12.0 * Math.PI) + 300.0 * Math.sin(x / 30.0 * Math.PI)) * 2.0 / 3.0;
+  return ret;
+}
+
+function gcj02ToWgs84(lat, lng) {
+  if (!isInChinaBBox(lat, lng)) return { lat: lat, lng: lng };
+  var dLat = gcjTransformLat(lng - 105.0, lat - 35.0);
+  var dLng = gcjTransformLng(lng - 105.0, lat - 35.0);
+  var radLat = lat / 180.0 * Math.PI;
+  var magic = Math.sin(radLat);
+  magic = 1 - GCJ_EE * magic * magic;
+  var sqrtMagic = Math.sqrt(magic);
+  dLat = (dLat * 180.0) / ((GCJ_A * (1 - GCJ_EE)) / (magic * sqrtMagic) * Math.PI);
+  dLng = (dLng * 180.0) / (GCJ_A / sqrtMagic * Math.cos(radLat) * Math.PI);
+  return { lat: lat - dLat, lng: lng - dLng };
+}
+
+// 从有序点位提取 [lat,lng] 数组，用于连线
+function routeCoordinates(points) {
+  return points.map(function (p) { return [p.lat, p.lng]; });
+}
+
+// 初始化地图：编号 divIcon 标记、按序虚线路线、点击弹出 名称+时间+导航链接。
+// elementId: 容器 id；points: [{lat, lng, name, time}]（按行程顺序，坐标须为 WGS-84）
+// opts 可选：{ tileUrl, attribution } 替换默认 OSM 瓦片源（如 OSM 访问不稳时换镜像）。
+function initTravelMap(elementId, points, opts) {
+  opts = opts || {};
+  var map = L.map(elementId);
+  L.tileLayer(opts.tileUrl || 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: opts.attribution || '© OpenStreetMap contributors',
+    maxZoom: 19,
+  }).addTo(map);
+
+  var ua = (typeof navigator !== 'undefined' && navigator.userAgent) || '';
+  points.forEach(function (p, i) {
+    var icon = L.divIcon({
+      className: 'route-pin',
+      html: '<span class="route-pin__num">' + (i + 1) + '</span>',
+      iconSize: [28, 28],
+      iconAnchor: [14, 14],
+    });
+    var navLinks = [{ label: '导航', url: buildNavLink(p.lat, p.lng, p.name, ua) }]
+      .concat(buildMapAppLinks(p.lat, p.lng, p.name));
+    L.marker([p.lat, p.lng], { icon: icon }).addTo(map).bindPopup(
+      '<b>' + (i + 1) + '. ' + escapeHTML(p.name) + '</b><br>'
+      + (p.time ? escapeHTML(p.time) + '<br>' : '')
+      + navLinks.map(function (l) {
+          return '<a href="' + l.url + '">' + escapeHTML(l.label) + '</a>';
+        }).join(' · ')
+    );
+  });
+
+  var coords = routeCoordinates(points);
+  if (coords.length > 1) {
+    L.polyline(coords, { dashArray: '6 8', weight: 2 }).addTo(map);
+  }
+  map.fitBounds(coords.length ? coords : [[0, 0]], { padding: [30, 30] });
+  return map;
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = {
+    buildNavLink: buildNavLink,
+    buildMapAppLinks: buildMapAppLinks,
+    routeCoordinates: routeCoordinates,
+    gcj02ToWgs84: gcj02ToWgs84,
+    initTravelMap: initTravelMap,
+  };
+}
+</script>
+<script>
+// 出发前提醒：截止日期计算 + 渲染。浏览器与 Node 双用。
+
+// startDateISO: 'YYYY-MM-DD'；items: [{item, leadDays}]
+// 返回按 deadline 升序的 [{item, leadDays, deadline}]，deadline 为 'YYYY-MM-DD'
+// 用 UTC 做日期运算，避免本地时区导致的偏移。
+function computeReminders(startDateISO, items) {
+  return items
+    .map(function (it) {
+      var d = new Date(startDateISO + 'T00:00:00Z');
+      d.setUTCDate(d.getUTCDate() - it.leadDays);
+      return { item: it.item, leadDays: it.leadDays, deadline: d.toISOString().slice(0, 10) };
+    })
+    .sort(function (a, b) {
+      return a.deadline < b.deadline ? -1 : a.deadline > b.deadline ? 1 : 0;
+    });
+}
+
+function escapeHTML(s) {
+  return String(s)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function renderChecklistHTML(reminders) {
+  var lis = reminders.map(function (r) {
+    return '<li class="todo-item">'
+      + '<input type="checkbox"> '
+      + '<span class="todo-deadline">' + r.deadline + '前</span> '
+      + '<span class="todo-text">' + escapeHTML(r.item) + '（建议提前' + r.leadDays + '天）</span>'
+      + '</li>';
+  }).join('');
+  return '<ul class="pretrip-todo">' + lis + '</ul>';
+}
+
+function reminderBadgeHTML(leadDays) {
+  return '<span class="reminder-badge">⚠️ 建议提前' + leadDays + '天订</span>';
+}
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = {
+    computeReminders: computeReminders,
+    renderChecklistHTML: renderChecklistHTML,
+    reminderBadgeHTML: reminderBadgeHTML,
+  };
+}
+</script>
+<script>
+(function(){
+'use strict';
+const trip=JSON.parse(document.getElementById('trip-data').textContent);
+const buttons=Array.from(document.querySelectorAll('[data-day]'));
+const days=Array.from(document.querySelectorAll('.day'));
+let travelMap=null;
+const allPoints=trip.days.flatMap(function(d){return d.slots.map(function(p){return {lat:p.lat,lng:p.lng,name:p.name,time:d.date+' '+p.time+' · 区域标点，请核对真实入口'};});});
+buttons.forEach(function(button){button.addEventListener('click',function(){
+ const value=button.dataset.day;
+ buttons.forEach(function(b){b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button));});
+ days.forEach(function(d){d.hidden=value!=='all'&&d.id!==value;});
+ if(value!=='all')document.getElementById(value).scrollIntoView({behavior:'smooth',block:'start'});
+ else document.getElementById('overview').scrollIntoView({behavior:'smooth'});
+});});
+const checklist=document.getElementById('checklist');
+checklist.innerHTML=renderChecklistHTML(computeReminders(trip.startDate,trip.reminders));
+checklist.querySelectorAll('input').forEach(function(input,i){
+ input.setAttribute('aria-label',trip.reminders[i].item);
+ const key='grassland-road-20260930-todo-'+i;
+ try{input.checked=localStorage.getItem(key)==='1';}catch(e){}
+ input.addEventListener('change',function(){try{localStorage.setItem(key,input.checked?'1':'0');}catch(e){}});
+});
+document.getElementById('print').addEventListener('click',function(){window.print();});
+document.getElementById('download-data').addEventListener('click',function(){
+ const blob=new Blob([JSON.stringify(trip,null,2)],{type:'application/json;charset=utf-8'});
+ const a=document.createElement('a');const url=URL.createObjectURL(blob);a.href=url;a.download='草原七日行程数据.json';a.click();setTimeout(function(){URL.revokeObjectURL(url);},1000);
+});
+let mapLoading=false;
+function asset(tag,url){return new Promise(function(resolve,reject){
+ const el=document.createElement(tag);let settled=false;
+ const timer=setTimeout(function(){if(!settled){settled=true;el.remove();reject(new Error('网络超时'));}},12000);
+ el.onload=function(){if(!settled){settled=true;clearTimeout(timer);resolve();}};
+ el.onerror=function(){if(!settled){settled=true;clearTimeout(timer);el.remove();reject(new Error('网络不可用'));}};
+ if(tag==='link'){el.rel='stylesheet';el.href=url;}else{el.src=url;}
+ document.head.appendChild(el);
+});}
+document.getElementById('load-map').addEventListener('click',async function(){
+ if(mapLoading||travelMap)return;mapLoading=true;this.disabled=true;
+ const status=document.getElementById('map-status');status.textContent='正在加载底图组件…';
+ try{
+  await Promise.all([asset('link','https://unpkg.com/leaflet@1.9.4/dist/leaflet.css'),window.L?Promise.resolve():asset('script','https://unpkg.com/leaflet@1.9.4/dist/leaflet.js')]);
+  document.getElementById('map').style.display='block';
+  travelMap=initTravelMap('map',allPoints);
+  document.getElementById('mapFallback').style.display='none';
+  document.getElementById('reset-map').hidden=false;this.hidden=true;
+  status.textContent='点位虚线仅示顺序，不表示道路；镇域标点不能作为景区入口。';
+  travelMap.eachLayer(function(layer){if(layer instanceof L.TileLayer){layer.on('tileerror',function(){status.textContent='底图暂不可用，已保留示意图与点位；行程文字不受影响。';document.getElementById('mapFallback').style.display='block';});}});
+ }catch(e){if(travelMap){travelMap.remove();travelMap=null;}document.getElementById('map').style.display='none';document.getElementById('mapFallback').style.display='block';status.textContent='网络不可用，保留离线示意图。可稍后重试。';this.disabled=false;}finally{mapLoading=false;}
+});
+document.getElementById('reset-map').addEventListener('click',function(){if(travelMap)travelMap.fitBounds(routeCoordinates(allPoints),{padding:[30,30]});});
+})();
+</script></body></html>
